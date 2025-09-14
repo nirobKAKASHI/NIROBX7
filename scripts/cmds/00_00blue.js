@@ -10,7 +10,7 @@ module.exports = {
 		shortDescription: {
 			en: "ai cmd powered by blue"
 		},
-		category: "ai",
+		category: "𝗔𝗜",
 		guide: {
 			en: "blue [your content]"
 		}
