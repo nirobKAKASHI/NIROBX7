@@ -23,7 +23,7 @@ module.exports.onStart = async function({ api, event }) {
     const imageUrl = event.messageReply.attachments[0].url;
     api.sendMessage("⏳ Upscaling your image to 4K, please wait...", event.threadID, event.messageID);
 
-    const upscaleApi = `http://veda.hidencloud.com:24611/upscale?url=${encodeURIComponent(imageUrl)}`;
+    const upscaleApi = `http://meta.wisp.uno:12986/upscale?url=${encodeURIComponent(imageUrl)}`;
     const res = await axios.get(upscaleApi);
 
     if (res.data?.status && res.data.result?.data?.downloadUrls?.length > 0) {
