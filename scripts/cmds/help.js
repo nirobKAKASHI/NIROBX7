@@ -20,7 +20,7 @@ function getRandomImage() {
 
 function buildCategory(catName, commands, prefix) {
   const cmdList = commands.map(c => `${prefix}${c}`).join("   ");
-  return `───────────────\n📂 ${catName}\n${cmdList}\n───────────────\n`;
+  return `───────────────\nજ⁀➴ ${catName}\n${cmdList}\n───────────────\n`;
 }
 
 module.exports = {
