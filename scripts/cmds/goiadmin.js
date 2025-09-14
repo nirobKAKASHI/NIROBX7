@@ -2,10 +2,11 @@ module.exports = {
 config: {
 name: "goiadmin",
 author: "𝗔𝗺𝗶𝗻𝘂𝗹 𝗦𝗼𝗿𝗱𝗮𝗿",
+modifier:"ＮＩＲＯＢ ᶻ 𝗓 𐰁",
 role: 0,
 shortDescription: " ",
 longDescription: "",
-category: "BOT",
+category: "𝗕𝗢𝗧",
 guide: "{pn}"
 },
 
